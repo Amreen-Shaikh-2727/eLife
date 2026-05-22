@@ -421,3 +421,16 @@ font-size: 15px;
     border-radius: 5px;
     cursor: pointer;font-size: 15px;
 }
+
+/* java script css active */
+
+.product-card{
+    width: 0;
+    height: 0;
+
+}
+
+.product-card.active{
+    width: 260px;
+    height: 379px;
+}

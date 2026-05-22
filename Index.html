@@ -6,26 +6,7 @@
     <title>eLife</title>
     <link rel="stylesheet" href="Style.css">
     <script>
-        document.addEventListener('DOMContentLoaded',()=> {
-            //PRoduct Card desplay
-            let productContainerWidth = document.querySelector('.product-card-container').offsetWidth;
-
-            //lots of maths shitt
-            let productCardWidth = 260;
-            let productCardPerRow = Math.floor(productContainerWidth / (productCardWidth + 10));
-            let marginSpacing = (productContainerWidth -(productCardPerRow * productCardWidth)) / (productCardPerRow-1);
-
-            let lastElement = productCardPerRow - 1;
-            let productCards;
-
-            let productSections = document.querySelectorAll('.product-section');
-            productSections.forEach((section) => {
-                productCards = section.querySelectorAll('.product-card');
-                for(let i = 0; i < productCardPerRow ; i++){
-                    // productCards[i].
-                }
-            });
-        });
+       
     </script>
 </head>
 <body>
@@ -402,5 +383,6 @@
         </div>
     </div>
 </div>
+<script src="script.js"></script>
 </body>
 </html>
